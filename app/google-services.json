@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "672424599325",
+    "firebase_url": "https://plastic-aware.firebaseio.com",
+    "project_id": "plastic-aware",
+    "storage_bucket": "plastic-aware.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672424599325:android:eaaf037037c87473d98bf4",
+        "android_client_info": {
+          "package_name": "com.example.plasticaware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672424599325-sjae1ruep8qa223qae8e4ci18n25ukqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9KGJsBha4HQiYP1EWOAwoSsSFUFLY1y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672424599325-sjae1ruep8qa223qae8e4ci18n25ukqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
