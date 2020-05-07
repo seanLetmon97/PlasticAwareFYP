@@ -1,5 +1,6 @@
 package com.example.plasticaware.data;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +20,7 @@ public class CartDataAdapter extends FirestoreRecyclerAdapter<CartData, CartData
   private OnItemClickListener listener;
   private FirestoreRecyclerOptions<CartData> options;
   private int itemCount=0;
+
   public CartDataAdapter(@NonNull FirestoreRecyclerOptions<CartData> options) {
     super(options);
     this.options = options;
@@ -32,6 +34,7 @@ public class CartDataAdapter extends FirestoreRecyclerAdapter<CartData, CartData
     String Quantity ="x"+ model.getQuantity();
     holder.textViewQuantity.setText(Quantity);
     holder.textViewQuantity.setVisibility(View.VISIBLE);
+
   }
 
 
@@ -49,12 +52,10 @@ public class CartDataAdapter extends FirestoreRecyclerAdapter<CartData, CartData
     itemCount=count;
   }
 
-
   // adapter has default getItemCount, but need this for dealing with async tasks
   public int getCount() {
     return  itemCount;
   }
-
 
   class ProductHolder extends RecyclerView.ViewHolder {
     TextView textViewTitle;

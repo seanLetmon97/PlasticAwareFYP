@@ -28,6 +28,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class ProductListFragment extends Fragment {
+
     private FirebaseFirestore db = FirebaseFirestore.getInstance();
     private CollectionReference allproducts = db.collection("products");
 
@@ -107,5 +108,6 @@ public class ProductListFragment extends Fragment {
     public void onStop() {
         super.onStop();
         adapter.stopListening();
+        db.clearPersistence();
     }
 }
