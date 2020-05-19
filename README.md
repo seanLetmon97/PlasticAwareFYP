@@ -25,3 +25,5 @@ Install steps:
 7. Once connected, you can build and run the project.
 
 note: if trying to run the application using an emulator, you will not be able to test the barcode scanner. It will still run but of course its an emulator, so there will be no way to place a barcode infront of the camera.
+
+To perform a complete test, an android mobile device should be used with a minimum sdk version of 21.
