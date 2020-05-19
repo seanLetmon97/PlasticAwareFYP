@@ -12,14 +12,14 @@ Install steps:
 
 2. Before running, click the Tools-> Firebase tab in the top navigation bar.
 
-3.On the right, an assistant for firebase will pop up, click the authentication drop down and select Email and password authentication.
+3. On the right, an assistant for firebase will pop up, click the authentication drop down and select Email and password authentication.
 
-4.Connect the app to the relevant firebase project. To do so, you must also be a collaborator of the firebase project.
+4. Connect the app to the relevant firebase project. To do so, you must also be a collaborator of the firebase project.
 
-5.if you are not a collaborator, you can email sean.letmon@ucdconnect.ie in order to be added to the firebase project.
+5. if you are not a collaborator, you can email sean.letmon@ucdconnect.ie in order to be added to the firebase project.
 
-6.If you are a collaborator, you will be brought to the firebase website and you must choose the correct project (PlasticAWARE).
+6. If you are a collaborator, you will be brought to the firebase website and you must choose the correct project (PlasticAWARE).
 
-7.Once connected, you can build and run the project.
+7. Once connected, you can build and run the project.
 
 note: if trying to run the application using an emulator, you will not be able to test the barcode scanner. It will still run but of course its an emulator, so there will be no way to place a barcode infront of the camera.
