@@ -3,7 +3,9 @@ This repositiory holds the code for PLASTICAware. An application that is designe
 The repositiory is private due to the fact that it is holding a secret API key. This key is used for handling logins and if a non-authorised person got the key, they may be able to pull some user data which is a security breach.
 
 repository owner: Seán Letmon
+
 Supervisor: Liliana Pasquale
+
 Project title: PlasticAWARE - A Mobile App for Reducing Plastic Pollution when Shopping
 
 Install steps:
