@@ -27,3 +27,6 @@ Install steps:
 note: if trying to run the application using an emulator, you will not be able to test the barcode scanner. It will still run but of course its an emulator, so there will be no way to place a barcode infront of the camera.
 
 To perform a complete test, an android mobile device should be used with a minimum sdk version of 21.
+(The simplest way to test the app is to download this apk from the google drive link:https://drive.google.com/file/d/12T3R30hDgbrW1I6CuMvDhvqZ602kjUTP/view?usp=sharing).
+
+If downloading the apk, it may flag that it is created by an unknown publisher, just proceed past this flag.
