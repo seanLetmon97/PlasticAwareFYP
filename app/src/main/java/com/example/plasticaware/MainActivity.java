@@ -22,6 +22,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.plasticaware.abstracts.Toolbar_drawer;
+import com.example.plasticaware.fragments.AboutFragment;
 import com.example.plasticaware.fragments.BarcodeScanerFragment;
 import com.example.plasticaware.fragments.CartFragment;
 import com.example.plasticaware.fragments.ProductListFragment;
@@ -133,11 +134,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         new CartFragment(),"cart").commit();
                 }
                 break;
-            case R.id.nav_settings:
-                Toast.makeText(this, "Share", Toast.LENGTH_SHORT).show();
-                break;
+
             case R.id.nav_info:
-                Toast.makeText(this, "Send", Toast.LENGTH_SHORT).show();
+                FragmentTransaction ft =  this.getSupportFragmentManager().beginTransaction();
+                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
+                Fragment UnknownProduct= new AboutFragment();
+                ft.replace(R.id.fragment_container, UnknownProduct);
+                ft.addToBackStack(null);
+                ft.commit();
                 break;
 
             case R.id.nav_exit:
